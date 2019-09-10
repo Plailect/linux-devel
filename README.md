@@ -70,7 +70,8 @@ cd ~/documents/projects/linux/
 mkdir .vscode
 wget https://raw.githubusercontent.com/Plailect/linux-devel/master/resources/.vscode/c_cpp_properties.json
 
-wget https://raw.githubusercontent.com/Plailect/linux-devel/master/resources/.vscode/generate_compdb.py # from amezin/vscode-linux-kernel
+# from amezin/vscode-linux-kernel
+wget https://raw.githubusercontent.com/Plailect/linux-devel/master/resources/.vscode/generate_compdb.py
 python .vscode/generate_compdb.py
 
 wget https://raw.githubusercontent.com/Plailect/linux-devel/master/resources/.vscode/launch.json
